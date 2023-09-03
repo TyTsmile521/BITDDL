@@ -221,7 +221,7 @@
         {
             "name": "huahua4",
             "x": 317,
-            "y": 230,
+            "y": 290,
             "width": 13,
             "height": 20,
             "type": "banary",
@@ -230,7 +230,7 @@
         {
             "name": "huahua5",
             "x": 317,
-            "y": 402,
+            "y": 354,
             "width": 13,
             "height": 20,
             "type": "banary",
@@ -355,6 +355,90 @@
             "nextx": 840,
             "nexty": 312,
             "nextmap": "../scene/south-1.json"
+        },
+        {
+            "img": "../scene/images/hiddendoor.png",
+            "name": "hidden downfloor",
+            "x": 450,
+            "y": 302,
+            "width": 86,
+            "height": 99,
+            "collideH": 1.0,
+            "type": "door",
+            
+            "nextx": 0,
+            "nexty": 312,
+            "nextmap": "../scene/lijiao-hiddenhallway.json"
+        },
+        {
+            "img": "../scene/images/clear.png",
+            "name": "upfloor",
+            "x": 360,
+            "y": 288,
+            "width": 72,
+            "height": 72,
+            "collideH": 1.0,
+            "type": "door",
+            
+            "nextx": 384,
+            "nexty": 384,
+            "nextmap": "../scene/lijiao-2.json"
+        },
+        {
+            "img": "../scene/images/clear.png",
+            "name": "classdoor 1",
+            "x": 144,
+            "y": 216,
+            "width": 24,
+            "height": 24,
+            "collideH": 1.0,
+            "type": "door",
+            
+            "nextx": 696,
+            "nexty": 360,
+            "nextmap": "../scene/lijiao-1-classroom1.json"
+        },
+        {
+            "img": "../scene/images/clear.png",
+            "name": "classdoor 2",
+            "x": 336,
+            "y": 216,
+            "width": 24,
+            "height": 24,
+            "collideH": 1.0,
+            "type": "door",
+            
+            "nextx": 696,
+            "nexty": 240,
+            "nextmap": "../scene/lijiao-1-classroom1.json"
+        },
+        {
+            "img": "../scene/images/clear.png",
+            "name": "classdoor 3",
+            "x": 384,
+            "y": 216,
+            "width": 24,
+            "height": 24,
+            "collideH": 1.0,
+            "type": "door",
+            
+            "nextx": 696,
+            "nexty": 360,
+            "nextmap": "../scene/lijiao-1-classroom2.json"
+        },
+        {
+            "img": "../scene/images/clear.png",
+            "name": "classdoor 4",
+            "x": 576,
+            "y": 216,
+            "width": 24,
+            "height": 24,
+            "collideH": 1.0,
+            "type": "door",
+            
+            "nextx": 696,
+            "nexty": 240,
+            "nextmap": "../scene/lijiao-1-classroom2.json"
         }
     ]
 }
